@@ -1,22 +1,22 @@
 {
-  "name": "John Doe",
+  "name": "Johnny Kamnang",
   "photoUrl": "favicon.svg",
-  "intro": "A brief, compelling introduction about who you are and what you do. Mention your core philosophy, your passion for building digital products, and your drive for creating efficient, high-impact solutions.",
+  "intro": "I'm an engineer who turns complex ideas into performant, user-friendly applications. I have a passion for building digital products, and a drive for creating efficient, high-impact solutions.",
   "introHtml": "A brief, compelling introduction about who you are and what you do. Mention your core <span class='text-white font-bold'>philosophy</span>, your passion for building digital products, and your drive for creating <span class='text-white font-bold'>efficient</span>, <span class='text-white font-bold'>high-impact</span> solutions.",
-  "webpageTitle": "John Doe",
+  "webpageTitle": "Johnny Kamnang - Software Engineer",
   "resumeUrl": "https://example-files.online-convert.com/document/pdf/example.pdf",
 
   "_comment": "Add your social links below. Leave the 'url' empty to hide the icon. Set 'showInContact' to true or false to control if it appears in the Contact section.",
   "socials": [
     {
       "name": "GitHub",
-      "url": "https://github.com/[YOUR_USER_NAME]",
+      "url": "https://github.com/refre",
       "icon": "mdi:github",
       "showInContact": true
     },
     {
       "name": "LinkedIn",
-      "url": "https://linkedin.com/in/[YOUR_USER_NAME]",
+      "url": "https://linkedin.com/in/johnnykamnang07",
       "icon": "mdi:linkedin",
       "showInContact": true
     },
