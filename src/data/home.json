@@ -40,7 +40,7 @@
     },
     {
       "name": "Whatsapp",
-      "url": "https://wa.me/[YOUR_WHATSAPP_NUMBER]",
+      "url": "#",
       "icon": "mdi:whatsapp",
       "showInContact": false
     },
@@ -66,6 +66,12 @@
       "name": "Twitter",
       "url": "https://x.com/Refre07DotNet",
       "icon": "mdi:twitter",
+      "showInContact": true
+    },
+    {
+      "name": "Blog",
+      "url": "https://refre07.blogspot.com/",
+      "icon": "mdi:blogger",
       "showInContact": true
     }
   ]

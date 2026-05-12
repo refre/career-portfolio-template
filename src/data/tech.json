@@ -3,7 +3,8 @@
     {
       "title": "Mobile Development",
       "skills": [
-        { "name": "Xamarin", "level": 3, "icon": "skill-icons:visualstudio-dark" }
+        { "name": "Xamarin", "level": 3, "icon": "skill-icons:visualstudio-dark" },
+        { "name": "MAUI", "level": 3, "icon": "skill-icons:visualstudio-dark" }
       ]
     },
     {
