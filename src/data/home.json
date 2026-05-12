@@ -42,7 +42,7 @@
       "name": "Whatsapp",
       "url": "https://wa.me/[YOUR_WHATSAPP_NUMBER]",
       "icon": "mdi:whatsapp",
-      "showInContact": true
+      "showInContact": false
     },
     {
       "name": "Facebook",
@@ -64,9 +64,9 @@
     },
     {
       "name": "Twitter",
-      "url": "#",
+      "url": "https://x.com/Refre07DotNet",
       "icon": "mdi:twitter",
-      "showInContact": false
+      "showInContact": true
     }
   ]
 }
