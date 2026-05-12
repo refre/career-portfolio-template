@@ -2,6 +2,27 @@
 import { Icon } from 'astro-icon/components';
 import Layout from "../layouts/Layout.astro";
 import Nav from "../components/nav.astro";
+
+const mobileApps = [
+  {
+    title: "MusicBoss Africa",
+    description: "Music trivia on african music, goodies inside more than 15.000 download.",
+    image: "/musicboss-africa.png",
+    tech: ["Xamarin", "UWP", "REST API"],
+  },
+  {
+    title: "Punchlines MJJ",
+    description: "Trivia on Michael Jackson, music and lyrics. goodies inside more than 25.000 download.",
+    image: "/musicboss-mjj.png",
+    tech: ["Xamarin", "UWP", "REST API"],
+  },
+  {
+    title: "MusicBoss Francais",
+    description: "Music trivia on french music, goodies inside more than 35.000 download. .",
+    image: "/musicboss-francais.png",
+    tech: ["Xamarin", "UWP", "REST API"],
+  },
+];
 ---
 
 <Layout title="Mobile Project - Johnny Kamnang">
@@ -78,6 +99,57 @@ import Nav from "../components/nav.astro";
           </p>
         </section>
       </div>
+
+      <section class="mt-20 reveal-content" style="animation-delay: 450ms;">
+        <div class="mb-10">
+          <h2 class="text-2xl md:text-3xl font-heading font-bold text-maintext mb-2">
+            <span class="text-accent">/</span> Mobile Applications
+          </h2>
+          <p class="text-subtext font-body text-sm max-w-md">
+            Three mobile projects built around focused music experiences.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {mobileApps.map((app) => (
+            <article class="group relative bg-accent/5 border border-accent/10 rounded-2xl overflow-hidden hover:border-accent/40 transition-all duration-500">
+              <div class="aspect-video overflow-hidden relative bg-background/50">
+                <div class="absolute inset-0 bg-accent/10 group-hover:bg-transparent transition-colors z-10 pointer-events-none"></div>
+                <img
+                  src={app.image}
+                  alt={`${app.title} screenshot`}
+                  onerror="this.onerror=null;this.src='/placeholder.jpeg';"
+                  class="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
+                />
+                <div class="absolute top-3 right-3 flex gap-2 z-20">
+                  <div class="p-1.5 bg-background backdrop-blur-md rounded-lg border border-accent/10 text-maintext">
+                    <Icon name="mdi:cellphone" class="w-4 h-4" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="p-6 space-y-4">
+                <div>
+                  <span class="text-accent text-[10px] uppercase tracking-widest font-bold">Mobile App</span>
+                  <h3 class="text-xl font-heading font-bold text-maintext mt-1">{app.title}</h3>
+                </div>
+
+                <p class="text-subtext text-sm font-body line-clamp-3">
+                  {app.description}
+                </p>
+
+                <div class="flex flex-wrap gap-2 pt-2">
+                  {app.tech.map((tech) => (
+                    <span class="rounded-md text-[10px] px-2 md:px-4 py-1 bg-accent/5 border border-accent/10 text-accent/80 group-hover:border-accent/40 group-hover:text-accent">
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
     </div>
   </section>
 </Layout>
