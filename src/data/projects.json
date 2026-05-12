@@ -16,5 +16,15 @@
     "platforms": ["apple-ios", "android"],
     "link": "/mobile-project",
     "category": "Personal Projects"
+  },
+  {
+    "title": "Professional application",
+    "description": "A high-performance application.",
+    "images": ["codesourcelignes.jpg", "electronic.jpg"],
+    "tech": ["C#", "Blazor", "SQL Server","WPF","Entity Framework","Azure","Docker","Kubernetes","ArgoCD","SonarQube"],
+    "platforms": ["computer"],
+    "link": "https://www.kajoble.com/",
+    "category": "Professional Projects"
   }
+
 ]
