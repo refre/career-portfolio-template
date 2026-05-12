@@ -8,19 +8,67 @@
     "skills": ["Blazor","MudBlazor", "C#","GenAI", "Azure DevOps", "Agile Methodologies"]
   },
   {
+    "company": "ISTA",
+    "role": "Senior Software Developer / Project leader",
+    "period": "Jan 2024 - Dec 2024",
+    "type": "Full time freelance",
+    "description": "Led company-wide digital transformation initiative, overseeing the development and implementation of a comprehensive software solution to enhance operational efficiency and customer experience. Collaborated with cross-functional teams to define project scope, set milestones, and ensure timely delivery of high-quality software products.",
+    "skills": ["C#", ".NET", "Blazor", "WebAPI", "Azure", "SQL Server", "Entity Framework", "ActiveMQ", "Hangfire", "Docker", "Kubernetes", "ArgoCD", "SonarQube", "Clean Architecture"]
+  },
+  {
     "company": "INAMI",
     "role": "Senior Software Developer / Project leader",
     "period": "Jan 2023 - Dec 2023",
     "type": "Full time freelance",
-    "description": "Specializing in Business Research Methods and Strategic HRM. Applying analytical frameworks to human capital management.",
-    "skills": ["React", "Node.js", "PostgreSQL", "Docker"]
+    "description": "Large-scale platform managing healthcare workers’ careers. Leading development team, collaborating with stakeholders to define requirements, and ensuring timely delivery of high-quality software solutions.",
+    "skills": ["C#", ".NET", "Blazor WASM", "Entity Framework", "SQL Server", "Keycloak", "xUnit", "Telerik"]
   },
   {
-    "company": "Demo University of Tech",
-    "role": "BSc in Computer Science",
-    "period": "Jun 2020 - Jun 2024",
-    "type": "Student",
-    "description": "Specializing in Business Research Methods and Strategic HRM. Applying analytical frameworks to human capital management.",
-    "skills": ["C++", "OOP", "Problem Solving"]
+    "company": "ELIA",
+    "role": "Senior Software Developer",
+    "period": "Jan 2022 - Dec 2022",
+    "type": "Full time freelance",
+    "description": "GreenTracking platform for renewable energy certificate management, partnering with program management to define product roadmap",
+    "skills": ["C#", ".NET", "Blazor", "EF Core", "SQL Server", "NSwagger", "HighCharts", "Hangfire", "RabbitMQ"]
+  },
+  {
+    "company": "INASTI",
+    "role": "Senior Software Developer / Project leader",
+    "period": "May 2021 - Dec 2021",
+    "type": "Full time freelance",
+    "description": "Governmental software that manages freelance career,Lead the software team to improve software quality and delivery, collaborating with stakeholders to define requirements and ensure timely delivery of high-quality software solutions.",
+    "skills": ["C#", "WPF", "WCF", "SQL Server", "Oracle", "NServiceBus", "CI/CD", "SonarQube"]
+  },
+  {
+    "company": "LASEA",
+    "role": "Senior Software Developer",
+    "period": "Sept 2020 - May 2021",
+    "type": "Full time employee",
+    "description": "Improve the software that drives laser generation machines, collaborating with cross-functional teams to define requirements and ensure timely delivery of high-quality software solutions.",
+    "skills": ["C#", "WPF"]
+  },
+  {
+    "company": "ISTA",
+    "role": "Senior Software Developer / Project leader",
+    "period": "Nov 2011 - Aug 2020",
+    "type": "Full time employee",
+    "description": "Led company-wide digital transformation initiative, overseeing the development and implementation of a comprehensive software solution to enhance operational efficiency and customer experience. Collaborated with cross-functional teams to define project scope, set milestones, and ensure timely delivery of high-quality software products.",
+    "skills": ["C#", ".NET", "Blazor", "WebAPI", "Azure", "SQL Server", "Entity Framework", "ActiveMQ", "Hangfire", "Docker", "Kubernetes", "ArgoCD", "SonarQube", "Clean Architecture"]
+  },
+  {
+    "company": "GE Healthcare Belgium",
+    "role": "Software engineer / Project leader",
+    "period": "Previous to 2011",
+    "type": "Full time employee",
+    "description": "Development of UI and communication to a synthsizer for medical devices, collaborating with cross-functional teams to define requirements and ensure timely delivery of high-quality software solutions.",
+    "skills": ["C#", ".NET", "Ansi C", "List&Label", "T-SQL", "SQL Server", "WPF", "ADO.NET", "Janus Gridex", "Style XP", "UML", "GAMP", "SQL Server Reporting Services"]
+  },
+  {
+    "company": "Ciena",
+    "role": "Field support engineer",
+    "period": "Previous",
+    "type": "Full time employee",
+    "description": "Support and maintenance of optical network equipment, providing technical assistance to customers and ensuring optimal performance of the network infrastructure.",
+    "skills": ["DWDM", "SDH", "Optical Networks", "Customer Support"]
   }
 ]
