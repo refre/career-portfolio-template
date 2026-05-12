@@ -1,0 +1,83 @@
+---
+import { Icon } from 'astro-icon/components';
+import Layout from "../layouts/Layout.astro";
+import Nav from "../components/nav.astro";
+---
+
+<Layout title="Mobile Project - Johnny Kamnang">
+  <Nav />
+
+  <section class="section-container min-h-screen pt-28 md:pt-36">
+    <div class="container mx-auto">
+      <a href="/#projects" class="inline-flex items-center gap-2 text-sm text-accent hover:text-maintext transition-colors mb-10">
+        <Icon name="mdi:arrow-left" class="w-5 h-5" />
+        Back to projects
+      </a>
+
+      <div class="grid grid-cols-1 lg:grid-cols-[1.1fr_0.9fr] gap-10 lg:gap-16 items-center">
+        <div class="space-y-8 reveal-content" style="animation-delay: 100ms;">
+          <div class="space-y-4">
+            <span class="text-accent text-xs uppercase tracking-widest font-bold">Mobile Application</span>
+            <h1 class="text-4xl md:text-6xl font-heading font-bold text-maintext tracking-tight">
+              Demo Mobile App
+            </h1>
+            <p class="text-subtext font-body text-base md:text-lg leading-relaxed max-w-2xl">
+              A performant mobile experience designed for iOS and Android, with clear flows, reliable API integration, and a polished interface that stays easy to use on small screens.
+            </p>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div class="bg-accent/5 border border-accent/10 rounded-2xl p-5">
+              <Icon name="mdi:cellphone" class="w-7 h-7 text-accent mb-4" />
+              <h2 class="text-maintext font-heading font-bold mb-1">Platform</h2>
+              <p class="text-subtext text-sm">iOS and Android</p>
+            </div>
+            <div class="bg-accent/5 border border-accent/10 rounded-2xl p-5">
+              <Icon name="mdi:code-braces" class="w-7 h-7 text-accent mb-4" />
+              <h2 class="text-maintext font-heading font-bold mb-1">Stack</h2>
+              <p class="text-subtext text-sm">Flutter, Dart, REST API</p>
+            </div>
+            <div class="bg-accent/5 border border-accent/10 rounded-2xl p-5">
+              <Icon name="mdi:rocket-launch" class="w-7 h-7 text-accent mb-4" />
+              <h2 class="text-maintext font-heading font-bold mb-1">Focus</h2>
+              <p class="text-subtext text-sm">Fast, clean workflows</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="relative reveal-content" style="animation-delay: 250ms;">
+          <div class="absolute inset-8 bg-accent/20 blur-3xl rounded-full"></div>
+          <div class="relative mx-auto w-full max-w-sm aspect-[9/16] rounded-[2rem] border border-accent/20 bg-background/70 p-3 shadow-2xl">
+            <div class="h-full rounded-[1.5rem] overflow-hidden bg-accent/5 border border-white/10">
+              <img
+                src="/astro-02.jpeg"
+                alt="Mobile project preview"
+                class="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-20 grid grid-cols-1 md:grid-cols-2 gap-8 reveal-content" style="animation-delay: 350ms;">
+        <section class="space-y-4">
+          <h2 class="text-2xl md:text-3xl font-heading font-bold text-maintext">
+            <span class="text-accent">/</span> Challenge
+          </h2>
+          <p class="text-subtext leading-relaxed">
+            The project centers on turning a compact mobile flow into something dependable: quick loading, readable information hierarchy, and touch-friendly actions across device sizes.
+          </p>
+        </section>
+
+        <section class="space-y-4">
+          <h2 class="text-2xl md:text-3xl font-heading font-bold text-maintext">
+            <span class="text-accent">/</span> Result
+          </h2>
+          <p class="text-subtext leading-relaxed">
+            The final direction emphasizes reusable UI patterns, stable navigation, and API-driven content that can scale without making the interface feel heavy.
+          </p>
+        </section>
+      </div>
+    </div>
+  </section>
+</Layout>
