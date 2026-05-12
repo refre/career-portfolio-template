@@ -3,7 +3,7 @@
     {
       "title": "Mobile Development",
       "skills": [
-        { "name": "Flutter", "level": 3, "icon": "skill-icons:flutter-dark" },
+        { "name": "Xamarin", "level": 3, "icon": "skill-icons:flutter-dark" },
         { "name": "Dart", "level": 3, "icon": "skill-icons:dart-dark" },
         { "name": "Kotlin", "level": 1, "icon": "skill-icons:kotlin-dark" }
       ]

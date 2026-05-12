@@ -1,18 +1,18 @@
 [
   {
     "title": "Awesome Website",
-    "description": "A high-performance, SEO-optimized web application built with modern frameworks to showcase technical expertise.",
-    "images": ["astro-01.webp", "astro-02.jpeg"],
-    "tech": ["Astro", "Tailwind"],
+    "description": "A high-performance, SEO-optimized web application to showcase compagnies.",
+    "images": ["couldpix.png", "daedalus.png","sdtech.png","tshouly.png"],
+    "tech": ["HTML", "JavaScript", "CSS", "PHP", "MySQL"],
     "platforms": ["web"],
     "link": "/website-project",
     "category": "Published Website"
   },
   {
-    "title": "Demo Mobile App",
-    "description": "A high-performance mobile application built with modern frameworks to showcase technical expertise.",
-    "images": ["astro-02.jpeg", "#"],
-    "tech": ["Flutter", "Dart", "REST API"],
+    "title": "Mobile App",
+    "description": "A high-performance mobile application built with modern frameworks.",
+    "images": ["musicboss-africa.png", "musicboss-francais.png","musicboss-mjj.png"],
+    "tech": ["Xamarin", "Windows Phone", "REST API"],
     "platforms": ["apple-ios", "android"],
     "link": "/mobile-project",
     "category": "Hobby"
