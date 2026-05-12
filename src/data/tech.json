@@ -3,9 +3,7 @@
     {
       "title": "Mobile Development",
       "skills": [
-        { "name": "Xamarin", "level": 3, "icon": "skill-icons:flutter-dark" },
-        { "name": "Dart", "level": 3, "icon": "skill-icons:dart-dark" },
-        { "name": "Kotlin", "level": 1, "icon": "skill-icons:kotlin-dark" }
+        { "name": "Xamarin", "level": 3, "icon": "skill-icons:visualstudio-dark" }
       ]
     },
     {
@@ -14,22 +12,25 @@
         { "name": "Astro", "level": 2, "icon": "skill-icons:astro" },
         { "name": "HTML", "level": 2, "icon": "skill-icons:html" },
         { "name": "CSS", "level": 2, "icon": "skill-icons:css" },
-        { "name": "Tailwind CSS", "level": 1, "icon": "skill-icons:tailwindcss-dark" }
+        { "name": "bootstrap", "level": 2, "icon": "skill-icons:bootstrap" },
+        { "name": "blazor", "level": 3, "icon": "skill-icons:visualstudio-dark" }
       ]
     },
     {
       "title": "Backend",
       "skills": [
-        { "name": "FastAPI", "level": 2, "icon": "skill-icons:fastapi" },
-        { "name": "Python", "level": 2, "icon": "skill-icons:python-dark" },
-        { "name": "Firebase", "level": 3, "icon": "vscode-icons:file-type-firebase" }
+        { "name": "C#", "level": 3, "icon": "skill-icons:cs" },
+        { "name": "API", "level": 3, "icon": "skill-icons:fastapi" },
+        { "name": "Entity Framework", "level": 3, "icon": "skill-icons:visualstudio-dark" },
+        { "name": "Azure", "level": 3, "icon": "skill-icons:azure-dark" }
       ]
     },
     {
       "title": "Database",
       "skills": [
         { "name": "SQLite", "level": 3, "icon": "skill-icons:sqlite" },
-        { "name": "PostgreSQL", "level": 2, "icon": "skill-icons:postgresql-dark" }
+        { "name": "SQL Server", "level": 3, "icon": "skill-icons:visualstudio-dark" },
+        { "name": "PostgreSQL", "level": 1, "icon": "skill-icons:postgresql-dark" }
       ]
     }
   ]
