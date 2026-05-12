@@ -6,7 +6,7 @@
     "tech": ["HTML", "JavaScript", "CSS", "PHP", "MySQL"],
     "platforms": ["web"],
     "link": "/website-project",
-    "category": "Published Website"
+    "category": "Former Website"
   },
   {
     "title": "Mobile App",
@@ -15,6 +15,6 @@
     "tech": ["Xamarin", "Windows Phone", "REST API"],
     "platforms": ["apple-ios", "android"],
     "link": "/mobile-project",
-    "category": "Hobby"
+    "category": "Personal Projects"
   }
 ]
