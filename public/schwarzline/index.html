@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Accueil</title>
+	<meta charset="utf-8">
+	<meta name = "format-detection" content = "telephone=no" />
+	<link rel="icon" href="images/icone32.png" type="image/x-icon">
+	<meta name="description" content="Votre garagiste Schwarz line est prêt à vous aider, le spécialiste du pneu à Amay. Montage et equilibrage, pneus toutes marques, géometrie, entretien, ...">
+	<meta name="keyword" content="garagiste, garage, penu, liege, amay, jante, ">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/camera.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery-migrate-1.2.1.js"></script>
+	<script src="js/camera.js"></script>
+	<script src='//maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false'></script>  
+
+	<!--[if (gt IE 9)|!(IE)]><!-->
+	<script src="js/jquery.mobile.customized.min.js"></script>
+	<script src="js/wow/wow.js"></script>
+	<script>
+		$(document).ready(function () {
+			if ($('html').hasClass('desktop')) {
+				new WOW().init();
+			}
+		});
+	</script>
+	<!--<![endif]-->
+
+
+
+	<!--[if lt IE 9]>
+  <div style=' clear: both; text-align:center; position: relative;'>
+   <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+     <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+   </a>
+  </div>
+  <![endif]-->
+  <!--[if lt IE 9]>
+  	<script src="js/html5shiv.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+  <![endif]-->
+</head>
+
+<body>
+
+	<!--========================================================
+														HEADER 
+	=========================================================-->
+	<header id="header" class="main_page">
+		<div id="stuck_container">
+			<div class="wrapper">
+				<div class="container">
+					<div class="row">
+						<div class="grid_8">
+							<h1><a href="index.html"><img src="images/schwarzline.png" alt="logoPhoto"></a> </h1>
+						</div>
+						<div class="grid_4 plane1">
+							<p class="txt1">Chaussée roosevelt 61A<br>4540 Amay</p>
+							<p class="txt2">0476.76.76.05</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="menu_holder">
+				<div class="container">
+					<nav>
+						<ul class="sf-menu">
+							<li class="current"><a href="index.html">Accueil<strong></strong></a></li>
+							<!--<li><a href="index-1.html">About<strong></strong></a></li>
+							<li><a href="index-2.html">Services<strong></strong></a>
+								<ul class="submenu">
+									<li><a href="#">Lorem ipsum dolor</a>
+										<ul class="submenu2">
+											<li><a href="#">News</a></li>
+											<li><a href="#">Archive</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Conse ctetur</a></li>
+									<li><a href="#">Eiusmod tempor</a></li>
+									<li><a href="#">Incididunt ut labore </a></li>
+									<li><a href="#">Et dolore magna</a></li>
+								</ul>
+							</li>-->
+							<li><a href="service.html">Services<strong></strong></a></li>
+							<li id="last-li"><a href="contact.html">Contacts<strong></strong></a></li>
+						</ul>
+					</nav>
+				</div>
+				
+			</div>
+
+		</div>
+	</header>
+	<!--========================================================
+														CONTENT 
+	=========================================================-->
+	<section id="content">        
+
+		<div class="wrapper">
+			<!-- start Camera -->
+				<!-- <div class="container">
+					<div class="row">
+						<div class="grid_8">
+						</div>
+						<div class="grid_4 plane1">
+						</div>
+					</div>
+				</div> -->
+				
+				<div class="camera_main_container  wow fadeIn">
+						<div class="slider_wrapper">
+							<div class="" id="camera_wrap">
+									<div data-src="images/slide1.jpg">
+											<div class="caption fadeIn">
+													<div class="caption_bg">
+															<span class="slider_txt1">La qualité des <br>pneus c’est votre <br>sécurité et c’est <br>notre priorité.</span>
+													</div>
+											</div>
+									</div>
+									<div data-src="images/slide2.jpg">
+											<div class="caption fadeIn">
+													<div class="caption_bg">
+															<span class="slider_txt1">Jantes abimées ?<br>Pourquoi <br>changer quand <br>on peut réparer?</span>
+													</div>
+											</div>
+									</div>
+									<div data-src="images/slide3.jpg">
+											<div class="caption fadeIn">
+													<div class="caption_bg">
+															<span class="slider_txt1">Discrétion,<br> chaleur,<br> look,<br>Teintez vos vitres.</span>
+													</div>
+											</div>
+									</div>		
+							</div>
+					</div>
+				</div>
+				
+				<!-- end Camera -->
+		</div>
+
+
+
+
+		<div class="box-2">
+			<div class="container">
+				<div class="row">
+					<div class="grid_8">
+						<div class="row">
+							<div class="grid_4 wow fadeInLeft" data-wow-delay="0.1s">
+								<h2><span class="color2">Jante</span> <br><span class="color1"></span></h2>
+								<img src="images/main3.jpg" alt="" class="img1">
+								<p>Nous vous proposons la réparation de vos jantes au meilleur prix.<br>Le service comprend la remise à neuf.</p>
+								<p>• Le redressement <br>• Les fissures, griffes, déformations<br>• L’arrachement d’une partie de la jante<br>• Le sablage et la mise en couleur « au choix ».</p>
+							</div>
+
+							<div class="grid_4 wow fadeInRight" data-wow-delay="0.4s">
+								<h2><span class="color2">Teinte de vitre</span> <br><span class="color1"></span></h2>
+								<img src="images/vitres-teintee-big.jpg" alt="" class="img1">
+								
+								<p>Nous vous proposons la teinte de vos vitres de voiture dans notre établissement.<br>Le service est assuré par notre partenaire ISO Film.</p>
+								<p>• Le prix est égal à celui de notre partenaire.<br>• Une garantie de qualité.<br>• Un service et un travail irréprochable<br>• Film garanti 10 ans<br>• Pour plus d’informations <a href="http://www.isofilm.be">www.isofilm.be</a></p>
+							</div>
+						</div>
+						<a href="service.html" class="more_btn">Plus d'info</a>
+
+					</div>
+					<div class="grid_4 plane2">
+						<h2 class="color2">Votre garagiste Schwarz Line est prêt à vous aider, grâce à un service complet.</h2>
+						<h3 class="color2">Quel que soit votre demande, nous 
+						vous proposons une solution adapt<span lang="fr-be">ée</span></h3>
+						<p class="color2">• Nous avons un grand choix de marque<span lang="fr-be">s</span> pour vos pneu<span lang="fr-be">s</span> neuf<span lang="fr-be">s</span>.<br>• Réparons le pneu avec un savoir-faire et un matériel de qualité.
+						<br>• Le montage des pneus même les plus complexes<br>• 
+						L’équilibrage avec précision<br>• Une large gamme de jante<span lang="fr-be">s</span><br>
+						• Réparation de jante quel que soit l’état.<br>• Nous gardons vos jeux de pneus été/hiver dans de bonne<span lang="fr-be">s</span> condition<span lang="fr-be">s</span><br>
+						• Nous nous occupons de la teinte de vos vitres<br>• Une demande particulière ? nous trouverons une solution !</p>
+						<p><br><br></p>
+						<!--<a href="#" class="more_btn v2">Read more</a>-->
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<div class="box-3">
+			<div class="container">
+						<div class="row">
+							<div class="grid_8">
+								<h2>Le professionnel du pneu dans la Province de Liège:</h2>
+								<p style="color:#333333">Nous vous proposons une large gamme de pneus neufs ou d’occasion à des prix concurrentiels toute l’année.
+Nous nous occupons de vos pneus crevés ou usés, du montage de vos pneus d’hiver et de vos nouveaux pneus. 
+Découvrez nos tarifs pour vos pneus neufs ou d’occasion, au choix.</p>
+								<p style="color:#333333">De plus, nous pouvons immédiatement vous conseiller le type de pneus le plus adapté, selon le type, la puissance et la taille de votre voiture.</p>
+								<p style="color:#333333">Nous vous offrons instantanément ET gratuitement un devis sur mesure</p>
+								
+								<div class="row">
+									<div class="grid_4 wow fadeInLeft" data-wow-delay="0.1s">
+										<ul class="list1">
+											<li><a href="#"><span class="color1">Pneus neufs a la piece</span></a></li>
+											<li><a href="#">13 pouces à partir de 46€</a></li>
+											<li><a href="#">14 et 15 pouces à partir de 52€</a></li>
+											<li><a href="#">16 et 17 pouces à partir de 60€</a></li>
+											<li><a href="#">18 pouces à partir de 68€</a></li>
+											<li><a href="#">19 pouces à partir de 77€</a></li>
+											<li><a href="#">20 pouces à partir de 82€</a></li>
+										</ul>
+									</div>
+		
+									<div class="grid_4 wow fadeInRight" data-wow-delay="0.4s">
+										<ul class="list1">
+											<li><a><span class="color1">Pneus d'occasion a la piece</span></a></li>
+											<li><a>13 pouces à partir de 20€</a></li>
+											<li><a>14 pouces à partir de 25€</a></li>
+											<li><a>15 pouces à partir de 30€</a></li>
+											<li><a>16 pouces à partir de 35€</a></li>
+											<li><a>17 pouces à partir de 40€</a></li>
+											<li><a>18 pouces à partir de 45€</a></li>
+										</ul>
+									</div>
+		
+								</div>
+		
+							</div>
+							<div class="grid_4">
+								<div class="icon_section1 plane3">
+									<!--<i class="fa fa-truck icon1"></i>  -->
+									<i class="fa fa-circle-o icon1"></i>
+									<h2 class="color2"><a href="service.html">Montage <br>de pneus</a></h2>
+									<div class="clear"></div>
+								</div>
+
+								<div class="icon_section1 plane4">
+									<i class="fa fa-wrench icon1"></i>
+									<h2 class="color2"><a href="service.html">jantes</a></h2>
+									<div class="clear"></div>
+								</div>
+
+								<div class="icon_section1 plane5">
+									<i class="fa fa-lock icon1"></i>
+									<h2 class="color2"><a href="service.html">Stockage <br>de pneus</a></h2>
+									<div class="clear"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+		</div>
+
+		<section  class="box-1 wow fadeInUp" data-stellar-background-ratio="-0.1">
+			<div class="container">
+				<div class="row">
+					<div class="grid_8">
+					</div>
+					<div class="grid_4 plane6">
+						<p class="txt3">Un service complet</p>
+						<p class="color2">Le changement des pneus dans l'atelier Schwarz Line, correspond toujours à 4 critères majeurs de qualité </p>
+						<p class="color2">1.	nous remplaçons systématiquement la valve.</p>
+						<p class="color2">2.	notre équilibrage se fait toujours avec des plombs neufs et adaptés à chaque type de jantes, avec du matériel de dernière génération.</p>
+						<p class="color2">3.	le serrage des roues se fait toujours à la main avec une clé dynamométrique.</p>
+						<p class="color2">4.	respect de la pression des pneus selon les prescriptions du constructeur.</p>
+						<a href="service.html" class="more_btn v3">plus de details</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<div  class="box-4 wow fadeInUp">
+			<div class="container">
+				<div class="row">
+					<div class="grid_8 z1">
+						<section class="content_map">
+							<div class="google-map-api"> 
+								<div id="map-canvas" class="gmap">
+								<!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2535.3313355872897!2d5.315542299999999!3d50.546608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c1aa8892cc5ef1%3A0xe94e35d565e2bf9f!2sChauss%C3%A9e+Roosevelt+61%2C+4540+Amay!5e0!3m2!1sfr!2sbe!4v1434873547333" width="100%" height="325" frameborder="0" style="border:0"></iframe>-->
+								</div> 
+							</div> 
+						</section>
+					</div>
+					<div class="grid_4 padLeft1 z2">
+						<p class="txt2 color2 marTop2">0476.76.76.05</p>
+						<p class="txt1 color2 marTop2">Chaussée roosevelt 61A<br>4540 Amay</p>
+						<p class="txt1 color3 marTop2">Contrôle préventif <br>de vos pneus</p>
+<!--						<p class="txt1 color3 marTop2"> </p>-->
+						<p>Quand vous le désirez, avec ou sans rendez-vous <br>Votre garagiste Schwarz line est prêt à vous aider.<br></p>
+						<!--<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>-->
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<div class="box-2 v2">
+			<div class="container">
+				<div class="row">
+					<div class="grid_8">
+						<div class="row">
+							<div class="grid_4 wow fadeInLeft" data-wow-delay="0.1s">
+								<h3 class="color2">Information</h3>
+								<p>Horaires d'ouverture :</p>
+								<ul class="list2">
+								<li>Lundi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12:00 – 18:00</li>
+								<li>Mardi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;09:30 – 12:00, 13:00 – 18:00</li>
+								<li>Mercredi&nbsp;&nbsp;&nbsp;09:30 – 12:00, 13:00 – 18:00</li>
+								<li>Jeudi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;09:30 – 12:00, 13:00 – 18:00</li>
+								<li>Vendredi&nbsp;&nbsp;&nbsp;09:30 – 12:00, 13:00 – 18:00</li>
+								<li>Samedi&nbsp;&nbsp;&nbsp;&nbsp;09:30 – 12:00, 13:00 – 18:00</li>
+								<li>Dimanche&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fermé</li>
+								</ul>
+							</div>
+
+							<!--<div class="grid_4 wow fadeInRight" data-wow-delay="0.4s">
+								<h3 class="color2">About</h3>
+								<ul class="list2">-->
+									<!--<li><a href="#">Conse ctetur</a></li>
+									<li><a href="#">Eiusmod tempor</a></li>
+									<li><a href="#">Incididunt ut labore</a></li>
+									<li><a href="#">Et dolore magna</a></li>
+									<li><a href="#">Ut enim ad minim</a></li>
+									<li><a href="#">Quis nostrud</a></li>
+									<li><a href="#">Eaxercitation</a></li>-->
+								<!--</ul>
+							</div>-->
+
+						</div>
+
+					</div>
+					<div class="grid_4 plane4">
+						<h3 class="color2">Nous suivre</h3>
+						<ul class="soc_icons marTop16 wow fadeInRight">
+							<li><a href="https://www.facebook.com/pages/Schwarz-Line/1491728961090066?fref=ts"><i class="fa fa-facebook"></i></a></li>
+							<!--<li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
+							<li><a href="https://plus.google.com/+SchwarzLineAmay/about?gl=be&hl=fr"><i class="fa fa-google-plus"></i></a></li>
+						</ul>
+						<p class="txt4">Vous avez une question sur nos dernières promotions ? Vous voulez suivre nos horaires en temps réel ? Où peut-être avez-vous une question ou une remarque ? Rejoignez-nous sur les réseaux sociaux : nous nous ferons un plaisir de vous aider ! Nous sommes présents sur Facebook et Google+</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--========================================================
+														FOOTER 
+	=========================================================-->
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="grid_12">
+					<p class="txt_priv wow fadeInLeft">Schwarz Line &copy; <span id="copyright-year"></span>.  Webmaster: <a href="http://users.edpnet.be/refre/" class="link1">Refre</a>
+					<!--<a href="index-5.html" class="link1">Privacy Policy</a><br>More Car Repair Website Templates at <a rel="nofollow" href="http://www.templatemonster.com/category/car-repair-website-templates/" target="_blank">TemplateMonster.com</a></p>-->
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+<script src="js/script.js"></script>
+
+<!--[if (gt IE 9)|!(IE)]><!-->
+<script src="js/jquery.mobile.customized.min.js"></script>
+<!--<![endif]-->
+
+<script type="text/javascript">
+
+	$(document).ready(function(){
+		jQuery('#camera_wrap').camera({
+				loader: false,
+				pagination: true,
+				thumbnails: false,
+				height: '52.63414634%',
+				fx: 'curtainBottomLeft',
+				rows: '1',
+				slicedCols: '1',
+				slicedRows: '3',
+				caption: false
+			});
+	 });
+
+	 $(document).ready(function(){
+		// Initialize the gallery
+		$('.magnifier2').touchTouch();
+	 });
+</script>
+
+
+<script type="text/javascript"> 
+	google_api_map_init();
+	function google_api_map_init(){
+		var map;
+		var coordData = new google.maps.LatLng(parseFloat(50.55), parseFloat(5.29)); 
+		var marker;
+
+		var markerIcon = { 
+				url: "images/gmap_marker.png", 
+				size: new google.maps.Size(51, 52), 
+				origin: new google.maps.Point(0,0), 
+				anchor: new google.maps.Point(-280, 0) 
+		};
+
+		styleArray=[{"featureType":"landscape","stylers":[{"saturation":-100},{"lightness":65},{"visibility":"on"}]},{"featureType":"poi","stylers":[{"saturation":-100},{"lightness":51},{"visibility":"simplified"}]},{"featureType":"road.highway","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"road.arterial","stylers":[{"saturation":-100},{"lightness":30},{"visibility":"on"}]},{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featureType":"transit","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":-25},{"saturation":-100}]},{"featureType":"water","elementType":"geometry","stylers":[{"hue":"#ffff00"},{"lightness":-25},{"saturation":-97}]}]
+
+		function initialize() { 
+			var mapOptions = { 
+				zoom: 14, 
+				center: coordData, 
+				scrollwheel: false, 
+				styles: styleArray 
+			}
+
+			var contentString = "<div></div>"; 
+			var infowindow = new google.maps.InfoWindow({ 
+				content: contentString, 
+				maxWidth: 200 
+			});
+			 
+			var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions); 
+			marker = new google.maps.Marker({ 
+				map:map, 
+				draggable:true, 
+				position: coordData, 
+				icon: markerIcon 
+			});
+			
+		}
+		google.maps.event.addDomListener(window, "load", initialize); 
+	}
+</script>
+
+</body>
+</html>

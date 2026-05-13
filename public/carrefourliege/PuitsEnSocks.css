@@ -1,0 +1,248 @@
+﻿#header{
+	border-style: solid solid none solid;
+	border-width: thin;
+	border-color: green;
+}
+#page {
+	border-color: green;
+	border-style: none solid none solid;
+	border-width: thin;
+}
+body {
+	width: 1024px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	background-image: url('');
+}
+
+.logo
+{
+	height:120px;
+	width:364px;
+	padding:0;
+	overflow:hidden;
+/*	margin-top:-10px;*/
+	margin-top:10px;
+	/* margin-top et margin-lzft */
+	text-decoration:none;
+	color:#FFFFFF
+}
+.logo:before
+{
+	content:url(Images/logocarrefour2.jpg);
+	display:inline-block;
+	font-size:0;
+	line-height:0;	
+}
+
+.leftFloat  {float: left;}
+.leftFloat img {margin-left:20px;}
+.leftFloat1 {float: left;width:400px; margin-top:5px;}
+
+.rightFloat  {float: right;	height: 16px;}
+.rightFloat1 {float: right;	height: 16px;margin-top:20px;}
+
+
+.clearCol {
+	clear: both;
+}
+
+#menuheader{
+	
+	height: 40px;
+	background: #52AE2F;
+	border-bottom: 1px solid #2D4516;
+}
+
+/* Menu */
+
+#menu {
+	float: left;
+	width: 800px;
+	height: 40px;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 8px 0 0 20px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	display: block;
+	float: left;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	margin-right: 17px;
+	padding: 5px 12px;
+	text-decoration: none;
+	color: #FFFFFF;
+/*	font: 14px Georgia, "Times New Roman", Times, serif;*/
+/*	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;*/
+
+}
+
+#menu a:hover { text-decoration: underline; }
+
+#menu .current_page_item a {
+	background: #39561D;
+	color: #FFFFFF;
+}
+
+
+#page
+{
+	background: url(images/img01.jpg) repeat-x left top;
+}
+
+
+/*footer*/
+#main {
+	width: 675px;
+}
+#main img
+{
+	margin-top:10px; margin-left:20px;
+}
+#sideBar {
+	width: 300px;
+	
+}
+.sideBarItem {
+	border: medium solid #52AE2F;
+	margin-top: 20px;
+	margin-right: 20px;
+	width: 270px;
+	
+}
+.sideBarTextBack
+{
+	background-color: #52AE2F;
+	color:white;
+	text-align: center;
+	/*font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;*/
+}
+.sidebarText {
+	padding: 10px;
+	/*font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;*/
+}
+.sidebarText a
+{
+	text-decoration:none;
+	color:green;
+}
+
+#PromoImage {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align:center;
+}
+.promoImages {
+	margin-top: 20px;
+	text-align:center;
+}
+
+.pageMainTitle {
+	margin-left:20px; 
+	margin-top:20px;
+	font-size: x-large;
+	/*font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;*/
+ }
+.pageMiniTitle {
+	/*font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;*/
+	font-size: large;
+	margin-left: 60px;
+	margin-top: 20px;
+	margin-bottom: 35px;
+}
+
+#footer {
+	width: 1024px;
+	/*margin-top:20px;*/
+	margin-left:auto;
+	margin-left:auto;
+
+	padding: 0;
+	background: #333333;
+}
+
+#footer p {
+	margin: 0;
+	padding: 20px 0;
+	text-align: center;
+	line-height: normal;
+	color: #B5ADA5;
+}
+
+#footer a {
+	color: #B5ADA5;
+	text-decoration:none;
+	
+}
+.serviceLayout {
+	border-style: none;
+	border-color: #FFFFFF;
+	width: 900px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+.serviceLayout a img {
+	border-style:none;
+}
+
+.serviceLayout img {
+	float: left;
+	margin:5px;
+}
+
+
+#ServicePresentation {
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+.contentText {margin-left: 20px;}
+.contentText a, .contentText a:visited{color: #008000;text-decoration:none;}
+.openDay {border-bottom-style: dashed;border-bottom-width:thin;border-bottom-color:#52AE2F;}
+.openDayName {float: left;text-align: left;width:100px;}
+.openDayHour {text-align: center;}
+.adressComment {color: #747474;}
+
+/************/
+/* Services */
+/************/
+
+.serviceText {font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;}
+.ServiceTextTitre {	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;	font-size: large;}
+.serviceText a:visited, .serviceText a{	color:navy; text-decoration:none;}
+
+/********************/
+/**** Evenements ****/
+/********************/
+
+.textMainTitle{margin-left: 20px;}
+.eventSeletion{padding-bottom:10px; border-bottom:1px green dashed;}
+.tailleGallery{margin-left:25px; margin-right:25px; margin-top:10px;}
+
+/*******************/
+/**** Contacts  ****/
+/*******************/
+
+.underLine {text-decoration: underline;}
+.contactHoraire {border-bottom-style: solid;border-bottom-width: 1px;padding-bottom: 1px;border-bottom-style:dashed;}
+.contactHoraireBase{margin-top:10px;} 
+.contactBase{margin-right:175px; margin-top:10px;}
+
+/***************/
+/** Old promo **/
+/***************/
+.OldPromo {margin-left:30px;text-align: left;} 
+
+
+
+

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contacts</title>
+	<meta charset="utf-8">
+	<meta name = "format-detection" content = "telephone=no" />
+	<link rel="icon" href="images/icone32.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/contact-form.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery-migrate-1.2.1.js"></script>
+	<script src='//maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false'></script>  
+
+	<!--[if (gt IE 9)|!(IE)]><!-->
+	<script src="js/jquery.mobile.customized.min.js"></script>
+	<script src="js/wow/wow.js"></script>
+	<script>
+		$(document).ready(function () {
+			if ($('html').hasClass('desktop')) {
+				new WOW().init();
+			}
+		});
+	</script>
+	<!--<![endif]-->
+
+	<script src="js/TMForm.js"></script>
+	<script src="js/modal.js"></script>
+
+
+
+	<!--[if lt IE 9]>
+  <div style=' clear: both; text-align:center; position: relative;'>
+   <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+     <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+   </a>
+  </div>
+  <![endif]-->
+  <!--[if lt IE 9]>
+  	<script src="js/html5shiv.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+  <![endif]-->
+</head>
+
+<body>
+
+	<!--========================================================
+														HEADER 
+	=========================================================-->
+	<header id="header" class="content_page">
+		<div id="stuck_container">
+			<div class="wrapper">
+				<div class="container">
+					<div class="row">
+						<div class="grid_8">
+							<h1><a href="index.html"><img src="images/schwarzline.png" alt="logo"></a> </h1>
+						</div>
+						<div class="grid_4 plane6">
+							<p class="txt1">Chaussée roosevelt 61A<br>4540 Amay</p>
+							<p class="txt2">0476.76.76.05</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="menu_holder">
+				<div class="container">
+					<nav>
+						<ul class="sf-menu">
+							<li><a href="index.html">Accueil<strong></strong></a></li>
+							<!--<li><a href="index-1.html">About<strong></strong></a></li>
+							<li><a href="index-2.html">Services<strong></strong></a>
+								<ul class="submenu">
+									<li><a href="#">Lorem ipsum dolor</a>
+										<ul class="submenu2">
+											<li><a href="#">News</a></li>
+											<li><a href="#">Archive</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Conse ctetur</a></li>
+									<li><a href="#">Eiusmod tempor</a></li>
+									<li><a href="#">Incididunt ut labore </a></li>
+									<li><a href="#">Et dolore magna</a></li>
+								</ul>
+							</li>-->
+							<li><a href="service.html">Services<strong></strong></a></li>
+							<li class="current" id="last-li"><a href="contact.html">Contacts<strong></strong></a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!--========================================================
+														CONTENT 
+	=========================================================-->
+	<section id="content">
+
+
+		<div  class="box-4 wow fadeInUp">
+			<div class="container">
+				<div class="row">
+					<div class="grid_8 z1">
+						<section class="content_map" style="right: -30px; top: 5px">
+							<div class="google-map-api"> 
+								<div id="map-canvas" class="gmap">
+									<!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2535.3313355872897!2d5.315542299999999!3d50.546608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c1aa8892cc5ef1%3A0xe94e35d565e2bf9f!2sChauss%C3%A9e+Roosevelt+61%2C+4540+Amay!5e0!3m2!1sfr!2sbe!4v1434873547333" width="100%" height="325" frameborder="0" style="border:0"></iframe>-->
+								</div> 
+							</div> 
+						</section>
+					</div>
+					<div class="grid_4 padLeft1 z2">
+						<p class="txt2 color2 marTop1">Contrôle préventif</p>
+						<p class="txt1 color2 marTop2">de vos pneus </p>
+						<p>Quand vous le désirez, avec ou sans rendez-vous <br>Votre garagiste Schwarz line est prêt à vous aider.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="box-3 v2">
+			<div class="container">
+						<div class="row">
+							<div class="grid_8">
+								<h2>contactez nous pour<br><span class="color1">toutes questions</span></h2>
+
+								<form id="contact-form">
+									<div class="contact-form-loader"></div>
+									<fieldset>
+
+										<div class="row">
+											<div class="grid_4">
+												<label class="name">
+													<input type="text" name="name" placeholder="Nom:" value="" data-constraints="@Required @JustLetters"  />
+													<span class="empty-message">*Ce champs est obligatoire.</span>
+													<span class="error-message">*Ce n'est pas un nom valide.</span>
+												</label>
+												<label class="phone">
+													<input type="text" name="phone" placeholder="Telephone:" value="" data-constraints="@Required @JustNumbers" />
+													<span class="empty-message">*Ce champs est obligatoire.</span>
+													<span class="error-message">*Ce n'est pas un telephone valide.</span>
+												</label>
+												<label class="email">
+													<input type="text" name="email" placeholder="E-mail:" value="" data-constraints="@Required @Email" />
+													<span class="empty-message">*Ce champs est obligatoire.</span>
+													<span class="error-message">*Ce n'est pas un email valide.</span>
+												</label>
+											</div>
+
+											<div class="grid_4">
+												<label class="message">
+													<textarea name="message" placeholder="Message:" data-constraints='@Required @Length(min=10,max=999999)'></textarea>
+													<span class="empty-message">*Ce champs est obligatoire.</span>
+													<span class="error-message">*Le message est trop court.</span>
+												</label>
+											</div>
+										</div>
+										<div class="btns">
+											<a href="#" class="more_btn hover-2" data-type="submit">Envoyer</a>
+											<a href="#" class="more_btn hover-2" data-type="reset">Effacer</a>
+										</div>
+									</fieldset> 
+									<div class="modal fade response-message">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+													<h4 class="modal-title">Modal title</h4>
+												</div>
+												<div class="modal-body">
+													Votre message à bien été envoyé, on vous contacte le plus rapidement.
+												</div>      
+											</div>
+										</div>
+									</div>
+								</form>		
+							</div>
+
+							<div class="grid_4 color2">
+
+								<div class="txt_section2 plane3  wow fadeInRight" data-wow-delay="0.2s">
+									<h2><span class="color2">Nous trouver<br></span> <span class="color1">sur les réseaux <br> sociaux</span></h2>
+									<p class="txt1">Vous avez une question sur nos dernières promotions ? Vous voulez suivre nos horaires en temps réel ? Où peut-être avez-vous une question ou une remarque ?</p>
+									<p>Rejoignez-nous sur les réseaux sociaux : nous nous ferons un plaisir de vous aider ! Nous sommes présents sur Facebook et Google+</p>
+
+									<ul class="soc_icons marTop16 wow fadeInRight">
+										<li><a href="https://www.facebook.com/pages/Schwarz-Line/1491728961090066?fref=ts"><i class="fa fa-facebook"></i></a></li>
+											<!--<li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
+										<li><a href="https://plus.google.com/+SchwarzLineAmay/about?gl=be&hl=fr"><i class="fa fa-google-plus"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+		</div>
+	</section>
+	<!--========================================================
+														FOOTER 
+	=========================================================-->
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="grid_12">
+					<p class="txt_priv wow fadeInLeft">Schwarz Line &copy; <span id="copyright-year">2015</span>. Webmaster: <a href="http://users.edpnet.be/refre/" class="link1">Refre</a>
+					<!--<a href="index-5.html" class="link1">Privacy Policy</a>-->
+				</div>
+			</div>
+		</div>
+	</footer>
+<script src="js/script.js"></script>
+
+
+<script type="text/javascript"> 
+	google_api_map_init();
+	function google_api_map_init(){
+		var map;
+		var coordData = new google.maps.LatLng(parseFloat(50.55), parseFloat(5.29)); 
+		var marker;
+
+		var markerIcon = { 
+				url: "images/gmap_marker.png", 
+				size: new google.maps.Size(51, 52), 
+				origin: new google.maps.Point(0,0), 
+				anchor: new google.maps.Point(-280, 0)
+		};
+
+		styleArray=[{"featureType":"landscape","stylers":[{"saturation":-100},{"lightness":65},{"visibility":"on"}]},{"featureType":"poi","stylers":[{"saturation":-100},{"lightness":51},{"visibility":"simplified"}]},{"featureType":"road.highway","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"road.arterial","stylers":[{"saturation":-100},{"lightness":30},{"visibility":"on"}]},{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featureType":"transit","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":-25},{"saturation":-100}]},{"featureType":"water","elementType":"geometry","stylers":[{"hue":"#ffff00"},{"lightness":-25},{"saturation":-97}]}]
+
+		function initialize() { 
+			var mapOptions = { 
+				zoom: 14, 
+				center: coordData, 
+				scrollwheel: false, 
+				styles: styleArray 
+			}
+
+			var contentString = "<div></div>"; 
+			var infowindow = new google.maps.InfoWindow({ 
+				content: contentString, 
+				maxWidth: 200 
+			});
+			 
+			var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions); 
+			marker = new google.maps.Marker({ 
+				map:map, 
+				draggable:true, 
+				position: coordData, 
+				icon: markerIcon 
+			});
+			
+		}
+		google.maps.event.addDomListener(window, "load", initialize); 
+	}
+</script>
+
+</body>
+</html>

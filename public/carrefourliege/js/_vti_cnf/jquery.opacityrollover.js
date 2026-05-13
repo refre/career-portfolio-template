@@ -1,0 +1,9 @@
+vti_encoding:SR|utf8-nl
+vti_author:SR|Refre-PC\\Refre
+vti_modifiedby:SR|Refre-PC\\Refre
+vti_timelastmodified:TR|21 Feb 2011 22:11:10 -0000
+vti_timecreated:TR|21 Feb 2011 22:11:08 -0000
+vti_extenderversion:SR|12.0.0.0
+vti_backlinkinfo:VX|evenements.html
+vti_cacheddtm:TX|21 Feb 2011 22:11:10 -0000
+vti_filesize:IR|937

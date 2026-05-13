@@ -1,0 +1,77 @@
+﻿/* Start of CMSMS style sheet 'screen' */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, table, caption, tbody, tfoot, thead, tr, th, td {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0;
+	margin: 0;
+	padding: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+	list-style: none;
+	
+}
+.content {
+	margin: auto;
+	width: 900px;
+}
+body{
+	background-color:#202020;
+}
+
+#header, #footer,#menuPanel {
+	background-color: #000000 ;
+}
+#mainPage {
+	/*background-color: #423d3a;*/
+	margin-top: 0px;
+}
+.flag {
+	display: inline;
+	margin: 5px 5px 0px 5px;
+}
+.right {
+	float: right;
+}
+.left {
+	float: left;
+}
+a img {
+	border-style: none;
+}
+.clear {
+	clear: both;
+}
+h1 {
+	background-image: url('Image/evolve200.png');
+	background-repeat: no-repeat;
+	margin-left:-70px;
+	height: 200px;
+	width:370px;
+	text-indent: -150000px;
+}
+
+h1 a { 
+	display: block; 
+	height: 200px;
+	width: 370px;
+}
+
+#footerMoreInfo {
+	background-color: #C0C0C0;
+}
+/*
+.toDelete {
+	background-color: #666666;
+	margin: 10px;
+	padding: 10px;
+}
+*/
+.Panel {
+	background-color: #C0C0C0;
+}
+.PanelFooter {
+height:15px;
+}

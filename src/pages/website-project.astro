@@ -2,6 +2,72 @@
 import { Icon } from 'astro-icon/components';
 import Layout from "../layouts/Layout.astro";
 import Nav from "../components/nav.astro";
+
+const clientWebsites = [
+  {
+    title: "Daedalus",
+    description: "Showcase website for Daedalus Engineering presenting its expertise in engineering, consumable product design, radiochemistry, mold design and plastic injection, and high-precision machining.",
+    image: "/daedalus.png",
+    tech: ["HTML", "CSS", "JavaScript"],
+    link: "/daedalus/index.html",
+  },
+  {
+    title: "Couldpix",
+    description: "is a showcase website specializing in aerial and semi-aerial photography services for businesses, municipalities, advertising, media, insurance, tourism, and private clients. Images are captured using helicopters, paramotors, drones, and hexacopters.",
+    image: "/couldpix.png",
+    tech: ["HTML", "CSS", "JavaScript"],
+    link: "/cloudpix/index.html",
+  },
+  {
+    title: "Schwarzline",
+    description: "Showcase website for Schwarzline, specializing in tires and vehicle maintenance services.",
+    image: "/schwarzline.png",
+    tech: ["HTML", "CSS", "JavaScript","PHP"],
+    link: "/schwarzline/index.html",
+  },
+  {
+    title: "Tshouly",
+    description: "showcase website for Tshouly Concept, a Belgian company specializing in talent development and coaching for individuals and businesses, with the slogan: “Luxury to Design Your Own Life.”",
+    image: "/tshouly.png",
+    tech: ["HTML", "CSS", "JavaScript"],
+    link: "/tshouly/index.html",
+  },
+  {
+    title: "Legend Car",
+    description: "Showcase website for Legend Cars, specializing in luxury car rental services.",
+    image: "/legendcar.png",
+    tech: ["HTML", "CSS", "JavaScript"],
+    link: "/legendcars/index.html",
+  },
+  {
+    title: "Carrefour",
+    description: "Website for Carrefour Express Puits-en-Socks, a neighborhood grocery store located in Liège,",
+    image: "/carrefour.png",
+    tech: ["HTML", "CSS", "JavaScript"],
+    link: "/carrefourliege/index.html",
+  },
+  {
+    title: "Aerotech",
+    description: "is a company specializing in engineering and consulting services for the civil and military aerospace industry.",
+    image: "/aerotech.png",
+    tech: ["HTML", "CSS", "JavaScript"],
+    link: "/areotech/index.html",
+  },
+  {
+    title: "Evolve",
+    description: "Showcase website for Evolve, a company specializing in electromechanical engineering services.",
+    image: "/evolve.png",
+    tech: ["HTML", "CSS", "JavaScript"],
+    link: "/evolve/index.html",
+  },
+  {
+    title: "Ztech",
+    description: "Corporate website for Ztech Engineering, a multidisciplinary engineering and design consultancy firm.",
+    image: "/ztech.png",
+    tech: ["HTML", "CSS", "JavaScript"],
+    link: "/ztech/index.html",
+  },
+];
 ---
 
 <Layout title="Website Project - Johnny Kamnang">
@@ -24,7 +90,7 @@ import Nav from "../components/nav.astro";
               <span class="w-3 h-3 rounded-full bg-green-400/80"></span>
             </div>
             <img
-              src="/astro-01.webp"
+              src="/websitecreation.jpg"
               alt="Website project preview"
               class="w-full aspect-video object-cover"
             />
@@ -35,10 +101,10 @@ import Nav from "../components/nav.astro";
           <div class="space-y-4">
             <span class="text-accent text-xs uppercase tracking-widest font-bold">Published Website</span>
             <h1 class="text-4xl md:text-6xl font-heading font-bold text-maintext tracking-tight">
-              Awesome Website
+              Website showroom
             </h1>
             <p class="text-subtext font-body text-base md:text-lg leading-relaxed max-w-2xl">
-              A modern web project focused on performance, responsive presentation, and a clear technical portfolio experience built with Astro and Tailwind.
+              A old fashion web project focused on performance, responsive presentation, and a clear technical portfolio experience built with html, css, js.
             </p>
           </div>
 
@@ -51,7 +117,7 @@ import Nav from "../components/nav.astro";
             <div class="bg-accent/5 border border-accent/10 rounded-2xl p-5">
               <Icon name="mdi:lightning-bolt" class="w-7 h-7 text-accent mb-4" />
               <h2 class="text-maintext font-heading font-bold mb-1">Stack</h2>
-              <p class="text-subtext text-sm">Astro, Tailwind</p>
+              <p class="text-subtext text-sm">HTML, CSS, JS</p>
             </div>
             <div class="bg-accent/5 border border-accent/10 rounded-2xl p-5">
               <Icon name="mdi:magnify" class="w-7 h-7 text-accent mb-4" />
@@ -81,6 +147,68 @@ import Nav from "../components/nav.astro";
           </p>
         </section>
       </div>
+
+      <section class="mt-20 reveal-content" style="animation-delay: 450ms;">
+        <div class="mb-10">
+          <h2 class="text-2xl md:text-3xl font-heading font-bold text-maintext mb-2">
+            <span class="text-accent">/</span> Client Websites
+          </h2>
+          <p class="text-subtext font-body text-sm max-w-md">
+            A selection of websites created for clients, each with room for context, stack, and a live link.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {clientWebsites.map((website) => (
+            <article class="group relative bg-accent/5 border border-accent/10 rounded-2xl overflow-hidden hover:border-accent/40 transition-all duration-500">
+              <div class="aspect-video overflow-hidden relative bg-background/50">
+                <div class="absolute inset-0 bg-accent/10 group-hover:bg-transparent transition-colors z-10 pointer-events-none"></div>
+                <img
+                  src={website.image}
+                  alt={`${website.title} website preview`}
+                  onerror="this.onerror=null;this.src='/placeholder.jpeg';"
+                  class="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
+                />
+                <div class="absolute top-3 right-3 flex gap-2 z-20">
+                  <div class="p-1.5 bg-background backdrop-blur-md rounded-lg border border-accent/10 text-maintext">
+                    <Icon name="mdi:web" class="w-4 h-4" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="p-6 space-y-4">
+                <div class="flex justify-between items-start gap-4">
+                  <div>
+                    <span class="text-accent text-[10px] uppercase tracking-widest font-bold">Client Website</span>
+                    <h3 class="text-xl font-heading font-bold text-maintext mt-1">{website.title}</h3>
+                  </div>
+                  <a
+                    href={website.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="shrink-0 text-accent/75 hover:text-accent transition-colors"
+                    aria-label={`Open ${website.title} website`}
+                  >
+                    <Icon name="mdi:open-in-new" class="w-6 h-6" />
+                  </a>
+                </div>
+
+                <p class="text-subtext text-sm font-body line-clamp-3">
+                  {website.description}
+                </p>
+
+                <div class="flex flex-wrap gap-2 pt-2">
+                  {website.tech.map((tech) => (
+                    <span class="rounded-md text-[10px] px-2 md:px-4 py-1 bg-accent/5 border border-accent/10 text-accent/80 group-hover:border-accent/40 group-hover:text-accent">
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
     </div>
   </section>
 </Layout>

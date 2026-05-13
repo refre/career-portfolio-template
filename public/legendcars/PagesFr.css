@@ -1,0 +1,38 @@
+﻿.UserMenu
+{
+	margin:auto; 
+	width:1029px; 
+	padding-top:-4px; 
+	display:block;
+}
+.style1 
+{
+	border-width: 0px;
+}
+
+.newMenu
+{
+	margin:auto; 
+	padding:0,0,0,0; 
+	width:810px;	
+}
+
+.HautMenu
+{
+	margin:auto; 
+	padding:0,0,0,0; 
+	width:1029px;
+}
+
+.currentImage
+{
+	margin:auto;
+	padding:0,0,0,0; 
+	width:810px;
+}
+.pub
+{
+	margin:auto;
+	padding:0,0,0,0; 
+	width:1040px;
+}

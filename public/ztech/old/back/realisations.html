@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Ztech - Réalisations</title>
+<link href="style.css" media="screen" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<div id="header">
+	<div id="logo">
+		<a href="index.html">
+		<img alt="Ztech-Transp1.png" src="images/Ztech-Transp1.png" title="Ztech engineering" /></a>
+	</div>
+	<!-- end #logo -->
+	<div id="menu">
+		<ul>
+			<li><a href="index.html">Accueil</a></li>
+			<li><a href="domaine.html">Domaine</a></li>
+			<li><a href="ressources.html">Ressources</a></li>
+			<li class="active"><a href="realisations.html">Realisations</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+	<!-- end #menu --></div>
+<!-- end #header -->
+<div id="page">
+	<div id="construction" style="margin-left: 50px; margin-bottom: 100px; margin-top: 100px;">
+		<form name="form">
+			<font face="verdana">
+			<table bgcolor="#000000" border="0">
+				<tr>
+					<td><font color="silver">User:</font> </td>
+					<td><input name="user" size="15" type="text" /> </td>
+				</tr>
+				<tr>
+					<td style="height: 29px"><font color="silver">Pass:</font>
+					</td>
+					<td style="height: 29px">
+					<input name="pass" size="15" type="password" /> </td>
+				</tr>
+				<tr>
+					<td></td>
+					<td align="center">
+					<input name="login" onclick="go()" type="button" value="Login" />
+					</td>
+				</tr>
+			</table>
+			</font>
+		</form>
+	</div>
+		<!-- end #content -->
+		<!-- end #sidebar --></div>
+<!-- end #page -->
+<div id="footer">
+	<p>© 2010 Ztech engineering. Tout droit reservé. Pour toutes questions,
+	<a href="mailto:info@ztech.be">contactez nous</a> ou contactez le
+	<a href="mailto:refre07dotnet@gmail.com">webmaster</a>. Design by
+	<a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</p>
+</div>
+<!-- end #footer -->
+
+</body>
+
+</html>
+<script language="javascript">
+<!--
+// Login Javascript Created By Neemzoid
+// www.MyPeeps.org
+// nmz@MyPeeps.org
+//      _   __                                _     __
+//     / | / /__  ___  ____ ___  ____  ____  (_)___/ /
+//    /  |/ / _ \/ _ \/ __ `__ \/_  / / __ \/ / __  /
+//   / /|  /  __/  __/ / / / / / / /_/ /_/ / / /_/ /
+//  /_/ |_/\___/\___/_/ /_/ /_/ /___/\____/_/\__,_/
+
+
+function go()
+{
+var user = document.form.user.value;
+var pass = document.form.pass.value;
+if ( pass != "ztech" ) { alert("Invalid Password!"); } 
+else { location.href = "realisation.html" }
+}
+//-->
+</script>

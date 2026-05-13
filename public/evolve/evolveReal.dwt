@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="Engeneering, Electromecanique" name="keywords" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link rel="stylesheet" type="text/css" href="realEvolve.css"/>
+<link rel="stylesheet" type="text/css" href="jimgMenukwicks.css"/>
+<link rel="stylesheet" type="text/css" href="galleriffic-2.css"/>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery-easing-1.3.pack.js"></script>
+<script type="text/javascript" src="js/jquery-easing-compatibility.1.2.pack.js"></script>
+<script type="text/javascript" src="js/jquery.kwicks-1.5.1.pack.js"></script>
+<script type="text/javascript" src="js/jquery.galleriffic.js"></script>
+<script type="text/javascript" src="js/jquery.opacityrollover.js"></script>
+
+<!-- #BeginEditable "doctitle" -->
+<title>Bienvenue sur le Website d'Evolve</title>
+<!-- #EndEditable -->
+
+<!--[if IE]>
+<script type="text/javascript">
+			$().ready(function() {
+			$(".jimgMenu ul").kwicks({max: 310, duration: 400, easing: "easeOutQuad"});
+			});
+</script>
+<![endif]-->
+<script type="text/javascript">
+			$().ready(function() {
+			$('.jimgMenu ul').kwicks({max: 310, duration: 300, easing: 'easeOutQuad'});
+			});
+</script>
+
+</head>
+
+<body>
+	<div class="mainContainer">
+	<div id="header">
+		<div class="right">
+		
+			<!-- #BeginEditable "flags" -->
+		
+			<div class="flag"><a href="index.html"><img alt="Francais" src="Image/FranceFlag32.png" title="Français"/></a></div>
+			<div class="flag"><a href="index.html"><img alt="Neederlands" src="Image/BelgiumFlag32.png" title="Neederlands" /></a></div>
+			<div class="flag"><a href="index.html"><img alt="English" src="Image/UnitedKingdomflag32.png" title="English" /></a></div>
+			<div class="flag"><a href="index.html"><img alt="Dutch" src="Image/GermanyFlag32.png" title="Dutch"/></a></div>
+			
+			<!-- #EndEditable -->
+			
+		</div>
+		<div class="clear"></div>
+	</div>
+		
+	<div class="headerMenu">
+	<!-- #BeginEditable "mainPage" -->
+		<div class="left">
+			<div id="evolveLogo">
+			<a href="index.html" title="Retour à la page d'acceuil"><h1>Evolve</h1></a>
+			</div>
+		</div>
+		<div class="right">					
+			<div id="nav">
+				<div class="jimgMenu" style="margin-top: -18px;">
+					<ul>
+						<li id="menuHome"><a href="index.html">Home</a></li>
+						<li id="menuService"><a href="index.html">Service</a></li>
+						<li id="menuPorfolio"><a href="index.html">Folio</a></li>
+						<li id="menuProduit"><a href="index.html">Produits</a></li>
+						<li id="menuContact"><a href="index.html">Contact</a></li>
+					</ul>
+				</div>&nbsp;
+			</div>
+		</div>	
+		<div class="clear"></div>
+		<!-- #EndEditable -->
+			
+		</div>
+		
+	
+	<div class="stripes"><span></span></div>
+	
+	<div class="menu">
+
+		<!-- #BeginEditable "menu" -->
+
+		<a href="index.html">Accueil</a>
+		<a href="index.html">Services</a>
+		<a href="index.html">Portfolio</a>
+		<a href="index.html">Produit</a>
+		<a href="index.html">Contact</a>	
+
+		<!-- #EndEditable -->	
+
+		<div class="clear"><span></span></div>
+	</div>
+	<div class="stripes"><span></span></div>
+	
+	<div class="main">
+		<div class="content">
+		
+		<!-- #BeginEditable "content" -->
+			<p>(content)</p>
+		<!-- #EndEditable -->
+		
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="footerText">
+			<p class="light">&copy; 2012 Evolve, All Rights Reserved. Design <a href="http://users.edpnet.be/refre">Refre</a></p>
+		</div>	
+	</div>
+	
+	</div>
+</body>
+
+</html>

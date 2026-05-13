@@ -1,0 +1,79 @@
+﻿
+.jimgMenu {
+	position:relative;
+	margin: 0px 0px 0px 50px;
+	padding: 0px;
+	width:475px;
+	height:200px;
+	overflow: hidden;
+}
+
+.jimgMenu ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	height: 200px;
+	position: relative;
+	}
+	
+.jimgMenu ul li {
+	width: 95px;
+	float: left;
+	display: block;
+	overflow: hidden;
+}
+
+.jimgMenu ul li a {
+	text-indent: -1000px;
+	background:#fff repeat scroll 0%;
+	border-right: 2px solid #fff;
+	cursor:pointer;
+	display:block;
+	overflow: hidden;
+	height: 200px;
+}
+
+.jimgMenu ul li#menuHomeFr a {
+	background: url(Image/Menu/001-Acceuil-Other.jpg) repeat scroll 0%;
+}
+.jimgMenu ul li#menuHome a {
+	background: url(Image/Menu/002-Acceuil-Other.jpg) repeat scroll 0%;
+}
+
+.jimgMenu ul li#menuService a {
+	background: url(Image/Menu/011-Services.jpg) repeat scroll 0%;
+}
+
+.jimgMenu ul li#menuPorfolio a {
+	background: url(Image/Menu/020-Portfolio-all.jpg) repeat scroll 0%;
+  
+}
+
+.jimgMenu ul li#menuProduit a {
+	background: url(Image/Menu/034-Product-anglais2.jpg) repeat scroll 0%;
+
+}
+.jimgMenu ul li#menuProduitDE a {
+	background: url(Image/Menu/031-Product-German.jpg) repeat scroll 0%;
+
+}
+.jimgMenu ul li#menuProduitFR a {
+	background: url(Image/Menu/035-Product-francais2.jpg) repeat scroll 0%;
+
+}
+
+.jimgMenu ul li#menuContact a {
+	background: url(Image/Menu/041-Contact-All.jpg) repeat scroll 0%;
+	border-right-style: none;
+}
+
+.jimgMenu ul li#menuContactDE a {
+	background: url(Image/Menu/042-Contact-german.jpg) repeat scroll 0%;
+	border-right-style: none;
+}
+
+
+.clear {
+	clear: both;
+}
